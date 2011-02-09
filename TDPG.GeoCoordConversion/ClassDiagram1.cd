@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TDPG.GeoCoordConversion.Converter" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAABAAIDBAAAAAACgACAAABAIABCAAAA=</HashCode>
+      <FileName>Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDPG.GeoCoordConversion.EllipseParameter" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAAAAAAAAAAAAAAEAAAoAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EllipseParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDPG.GeoCoordConversion.GridReference">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAAAAAAAAAAAAAAAAAgAABAAQBAAAAAAAAA=</HashCode>
+      <FileName>GridReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDPG.GeoCoordConversion.HelmertTransform" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAIAAAAAAAgCABAAAAAAABAAAAAAJAEAAAAAAA=</HashCode>
+      <FileName>HelmertTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDPG.GeoCoordConversion.PolarGeoCoordinate" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAEAAABCAAgAAAAAABAAAAAAgAAAIAUAAAAAAAAAA=</HashCode>
+      <FileName>PolarGeoCoordinate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B4PJS.Conversion.UserDefinedFunctions">
+    <Position X="5.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAgAAAAAAAAAAAAAAAkAAQAAAA=</HashCode>
+      <FileName>udf_Conversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TDPG.GeoCoordConversion.AngleUnit" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>AngleUnit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TDPG.GeoCoordConversion.CoordinateSystems" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CoordinateSystems.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

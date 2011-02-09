@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/9/trunk/TDPG.GeoCoordConversion
+END
+TDPG.GeoCoordConversion.pfx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/TDPG.GeoCoordConversion/TDPG.GeoCoordConversion.pfx
+END
+HelmertTransform.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/TDPG.GeoCoordConversion/HelmertTransform.cs
+END
+EllipseParameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/TDPG.GeoCoordConversion/EllipseParameter.cs
+END
+CoordinateSystems.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/TDPG.GeoCoordConversion/CoordinateSystems.cs
+END
+TDPG.GeoCoordConversion.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/TDPG.GeoCoordConversion/TDPG.GeoCoordConversion.csproj
+END
+PolarGeoCoordinate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/TDPG.GeoCoordConversion/PolarGeoCoordinate.cs
+END
+GridReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/TDPG.GeoCoordConversion/GridReference.cs
+END
+AngleUnit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/TDPG.GeoCoordConversion/AngleUnit.cs
+END
+Converter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/TDPG.GeoCoordConversion/Converter.cs
+END

@@ -1,0 +1,5 @@
+D:\SVN\geocoordconversion-read-only\TDPG.GeoCoordConversion\obj\Release\ResolveAssemblyReference.cache
+D:\SVN\geocoordconversion-read-only\TDPG.GeoCoordConversion\bin\Release\GeoCoordConversion.dll
+D:\SVN\geocoordconversion-read-only\TDPG.GeoCoordConversion\bin\Release\GeoCoordConversion.pdb
+D:\SVN\geocoordconversion-read-only\TDPG.GeoCoordConversion\obj\Release\GeoCoordConversion.dll
+D:\SVN\geocoordconversion-read-only\TDPG.GeoCoordConversion\obj\Release\GeoCoordConversion.pdb
