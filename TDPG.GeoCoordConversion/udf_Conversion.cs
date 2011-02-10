@@ -175,18 +175,18 @@ namespace B4PJS.Conversion
                 output = "POLYGON ((" + String.Join(",", polyarray) + "))";
             }
             SqlGeometry geom = SqlGeometry.STGeomFromText((SqlChars)output, 4326);
-            geom.MakeValid();
-            try
-            {
-                geom = SqlGeometry.STGeomCollFromWKB(geom.STUnion(geom.STStartPoint()).STAsBinary(), 4326);
-            }
-            catch
-            {
+            //geom.MakeValid();
+            //try
+            //{
+            //    geom = SqlGeometry.STGeomCollFromWKB(geom.STUnion(geom.STStartPoint()).STAsBinary(), 4326);
+            //}
+            //catch
+            //{
                 geom = SqlGeometry.STGeomFromWKB(geom.MakeValid().STUnion(geom.MakeValid().STStartPoint()).STAsBinary(), 4326);
-            }
-            SqlGeography geog;
-            
-            geog = SqlGeography.STGeomFromWKB(geom.MakeValid().STBuffer(0.00001).STBuffer(-0.00001).Reduce(0.00001).MakeValid().STAsBinary(), 4326);
+            //}
+
+                //.STBuffer(0.00001).STBuffer(-0.00001)
+             SqlGeography geog = SqlGeography.STGeomFromWKB(geom.Reduce(0.00001).STAsBinary(), 4326);
                 
             return geog;
         }
