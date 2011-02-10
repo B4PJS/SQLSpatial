@@ -186,9 +186,18 @@ namespace B4PJS.Conversion
             //}
 
                 //.STBuffer(0.00001).STBuffer(-0.00001)
-                SqlGeography geog = SqlGeography.STGeomFromWKB(geom.MakeValid().Reduce(0.0001).STBuffer(0.00001).STAsBinary(), 4326);
-                
-            return geog;
+                geom = SqlGeometry.STGeomFromWKB(geom.MakeValid().Reduce(0.0001).MakeValid().STBuffer(0.00001).MakeValid().STAsBinary(), 4326);
+                try
+                {
+                    SqlGeography geog = SqlGeography.STGeomFromWKB(geom.MakeValid().STAsBinary(), 4326);
+                    return geog;
+                }
+
+                catch
+                {
+                    SqlGeography retval = SqlGeography.Null;
+                    return retval;
+                }
         }
 
 
